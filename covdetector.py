@@ -26,7 +26,7 @@ model = tf.keras.models.load_model("/content/drive/MyDrive/Detection/model.h5")
 
 
 #load image
-img = image.load_img('/content/drive/MyDrive/DataSet/Test/Normal/Normal-292.png', target_size=(224, 224))
+img = image.load_img('file:///home/darryl/Desktop/VI/Prozec/CovidDataset/Test/Normal/Normal-799.png', target_size=(224, 224))
 
 #convert to numpy array
 x = image.img_to_array(img)
